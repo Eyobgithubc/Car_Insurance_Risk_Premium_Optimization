@@ -1,10 +1,7 @@
 import pandas as pd
 
 def clean_data(file_path):
-    """
-    This function performs all data cleaning steps, including handling missing values,
-    converting string-based numeric values with commas, and dropping columns with too many missing values.
-    """
+    
 
     data = pd.read_csv(file_path,delimiter='|')
     print("Data Loaded Successfully!")
