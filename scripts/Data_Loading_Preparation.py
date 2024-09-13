@@ -33,7 +33,7 @@ def clean_data(file_path):
   
     high_missing_cols = ['CustomValueEstimate', 'NewVehicle', 'WrittenOff', 
                          'Rebuilt', 'Converted', 'CrossBorder', 'NumberOfVehiclesInFleet']
-    data = data.drop(columns=high_missing_cols)
+    #data = data.drop(columns=high_missing_cols)
 
     
     remaining_missing_values = data.isnull().sum()
