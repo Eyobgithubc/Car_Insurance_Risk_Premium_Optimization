@@ -1,0 +1,5 @@
+[core]
+    remote = gdrive_remote
+['remote "localstorage"']
+    url = C:\Users\teeyob\MyStorage
+
